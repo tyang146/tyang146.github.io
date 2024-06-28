@@ -10,16 +10,7 @@
 - Three.js
 - Node.js
 
-## Getting Started
+## Access/Link
 
-Prerequisites:
-- Node.js and npm (Node Package Manager) installed on your system. You can download them from [Node.js official](https://nodejs.org/en/download/package-manager) website.
+[https://tyang146.github.io/](https://tyang146.github.io/)
 
-Run the development server:
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
