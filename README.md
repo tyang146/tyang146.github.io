@@ -10,7 +10,7 @@
 - Three.js
 - Node.js
 
-## Access/Link
+## Link To Profile
 
 [https://tyang146.github.io/](https://tyang146.github.io/)
 
