@@ -1,8 +1,5 @@
 # My 3D Portfolio using React with Three.js
 
-## Overview
-This repository contains my learning of React + Vite + Three.js in making a 3D portfolio.
-
 ## Technologies Used
 - HTML
 - CSS
