@@ -4,7 +4,7 @@
 - HTML
 - CSS
 - JavaScript
-- Tailwind
+- Tailwind CSS
 - React
 - Vite
 - Three.js
