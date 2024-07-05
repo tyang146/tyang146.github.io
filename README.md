@@ -22,3 +22,4 @@ https://www.youtube.com/watch?v=FkowOdMjvYo&t=468s
 - https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042
 - https://sketchfab.com/3d-models/fox-f372c04de44640fbb6a4f9e4e5845c78
 - https://sketchfab.com/3d-models/volcano-island-lowpoly-4a6591dc9fee40d8bfda8350683af9af
+- https://sketchfab.com/3d-models/hw-xyz-school-detailing-l-l-3-ef8de71cdacb48ce9bf401d63c5c678d
