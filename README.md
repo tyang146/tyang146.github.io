@@ -10,7 +10,7 @@
 - Three.js
 - Node.js
 
-## Link To Profile
+## Link To Portfolio
 
 [https://tyang146.github.io/](https://tyang146.github.io/)
 
