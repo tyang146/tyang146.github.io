@@ -9,6 +9,7 @@
 - Vite
 - Three.js
 - Node.js
+- Blender
 
 ## Link To Portfolio
 
