@@ -8,7 +8,7 @@
 - React
 - Vite
 - Three.js
-- Node.js
+- Npm
 - Blender
 
 ## Link To Portfolio
