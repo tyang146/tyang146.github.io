@@ -2,8 +2,7 @@
 
 ## Technologies Used
 - HTML
-- CSS
-- JavaScript
+- TypeScript
 - SCSS
 - Angular
 
