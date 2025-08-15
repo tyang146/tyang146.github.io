@@ -1,0 +1,13 @@
+<div class="card text-center">
+  <img [src]="project.src" class="card-img-top" [alt]="project.name">
+  <div class="card-body">
+    <h5 class="card-title mt-3">
+      {{ project.name }}
+    </h5>
+    <div>
+      <a [href]="project.link" target="_blank" class="bt btn btn-color-3">
+        {{ project.name === 'Ransomware Evolution: Chapter 5' ? 'View Paper' : 'Check on Github' }}
+      </a>
+    </div>
+  </div>
+</div>
