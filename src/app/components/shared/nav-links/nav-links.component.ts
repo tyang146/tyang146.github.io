@@ -13,20 +13,26 @@ export class NavLinksComponent {
 
   constructor(private viewportScroller: ViewportScroller, private router: Router) {}
 
-  protected  navItems: string[] = ['About', 'Skills', 'Projects', 'Playground'];
+  protected  navItems: string[] = ['About', 'Skills', 'Projects'];
 
   onNavClick(item: string) {
-    if (item === 'Playground') {
-      this.router.navigateByUrl('/playground');
-      return;
-    }
-
     // Ensure we are on the home route before scrolling to anchors
     this.router.navigateByUrl('/').then(() => {
       const elementId = item.toLowerCase().replace(' ', '-');
       // Allow DOM to settle after navigation
       setTimeout(() => this.viewportScroller.scrollToAnchor(elementId), 0);
     });
+
+    // Close Bootstrap navbar collapse on mobile
+    const navbarCollapse = document.getElementById('navbarNav');
+    if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+      (navbarCollapse as any).classList.remove('show');
+      (navbarCollapse as any).classList.add('collapsing');
+      setTimeout(() => {
+        (navbarCollapse as any).classList.remove('collapsing');
+        (navbarCollapse as any).classList.add('collapse');
+      }, 350);
+    }
   }
 
   scrollTo(section: string) {

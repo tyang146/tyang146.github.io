@@ -337,30 +337,36 @@ export class PlaygroundComponent implements AfterViewInit, OnDestroy {
 
     @HostListener('window:keydown', ['$event'])
     handleKeyDown(event: KeyboardEvent) {
+
         if (this.isMatrixMode || this.isTransitioning) return;
 
         switch (event.key) {
             case 'ArrowUp':
+                event.preventDefault();
                 if (this.direction.y === 0) {
                     this.nextDirection = { x: 0, y: -1 };
                 }
                 break;
             case 'ArrowDown':
+                event.preventDefault();
                 if (this.direction.y === 0) {
                     this.nextDirection = { x: 0, y: 1 };
                 }
                 break;
             case 'ArrowLeft':
+                event.preventDefault();
                 if (this.direction.x === 0) {
                     this.nextDirection = { x: -1, y: 0 };
                 }
                 break;
             case 'ArrowRight':
+                event.preventDefault();
                 if (this.direction.x === 0) {
                     this.nextDirection = { x: 1, y: 0 };
                 }
                 break;
             case ' ':
+                event.preventDefault();
                 if (this.gameOver) {
                     // Restart game
                     const canvas = this.matrixCanvasRef?.nativeElement;

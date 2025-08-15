@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {Router} from '@angular/router';
 import {ViewportScroller} from "@angular/common";
 
 @Component({
@@ -10,14 +11,13 @@ import {ViewportScroller} from "@angular/common";
 })
 export class ProfileComponent {
 
-  constructor(private viewportScroller: ViewportScroller) {}
+  constructor(private viewportScroller: ViewportScroller, private router: Router) {}
+  goToPlayground() {
+    this.router.navigateByUrl('/playground');
+  }
 
   scrollTo(section: string) {
     this.viewportScroller.scrollToAnchor(section);
-  }
-
-  openResume() {
-    window.open("./assets/resume.pdf");
   }
 
   goToGithub() {
