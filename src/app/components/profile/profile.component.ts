@@ -23,4 +23,8 @@ export class ProfileComponent {
   goToGithub() {
     window.open('https://github.com/tyang146?tab=repositories', '_blank');
   }
+
+  goToMyWorld() {
+    window.open('https://myworld-a998d.web.app/', '_blank');
+  }
 }
