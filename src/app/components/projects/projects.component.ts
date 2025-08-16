@@ -29,7 +29,7 @@ export class ProjectsComponent {
     },
     {
       name: 'Accounting and Bookkeeping System',
-      src: './assets/projects/de.jpeg',
+      src: './assets/projects/bookkeeping.jpeg',
       link: 'https://github.com/tyang146/Bookkeeping',
     },
     {
