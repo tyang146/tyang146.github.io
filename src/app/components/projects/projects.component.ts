@@ -33,9 +33,14 @@ export class ProjectsComponent {
       link: 'https://github.com/tyang146/Bookkeeping',
     },
     {
-      name: 'Workout Tracker',
-      src: './assets/projects/wt.png',
-      link: 'https://github.com/tyang146/WorkoutTracker',
+      name: 'Insurance Portal',
+      src: './assets/projects/insurance.jpeg',
+      link: 'https://github.com/tyang146/Insurance-Client-Portal',
+    },
+    {
+      name: 'Movie Field Deduction',
+      src: './assets/projects/movie.jfif',
+      link: 'https://github.com/tyang146/movie_field_deduction',
     },
     {
       name: 'Bloxorz AI',
@@ -43,9 +48,9 @@ export class ProjectsComponent {
       link: 'https://github.com/tyang146/BloxorzAI',
     },
     {
-      name: 'Movie Field Deduction',
-      src: './assets/projects/movie.jfif',
-      link: 'https://github.com/tyang146/movie_field_deduction',
+      name: 'Workout Tracker',
+      src: './assets/projects/wt.png',
+      link: 'https://github.com/tyang146/WorkoutTracker',
     },
     {
       name: 'Ransomware Evolution: Chapter 5',
