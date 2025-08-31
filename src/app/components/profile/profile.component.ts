@@ -25,6 +25,6 @@ export class ProfileComponent {
   }
 
   goToMyWorld() {
-    window.open('https://myworld-a998d.web.app/', '_blank');
+    window.open('https://myworld-a998d.firebaseapp.com/*', '_blank');
   }
 }
