@@ -12,9 +12,6 @@ import {ViewportScroller} from "@angular/common";
 export class ProfileComponent {
 
   constructor(private viewportScroller: ViewportScroller, private router: Router) {}
-  goToPlayground() {
-    this.router.navigateByUrl('/playground');
-  }
 
   scrollTo(section: string) {
     this.viewportScroller.scrollToAnchor(section);
@@ -25,6 +22,6 @@ export class ProfileComponent {
   }
 
   goToMyWorld() {
-    window.open('https://myworld-a998d.firebaseapp.com/*', '_blank');
+    window.open('https://myworld-a998d.firebaseapp.com/', '_blank');
   }
 }
