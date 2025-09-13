@@ -23,11 +23,6 @@ export class ProjectsComponent {
 
   protected projects: Project[]  = [
     {
-      name: 'Bank Management System',
-      src: './assets/projects/bank.png',
-      link: 'https://github.com/tyang146/Bank-Management-System',
-    },
-    {
       name: 'Accounting and Bookkeeping System',
       src: './assets/projects/bookkeeping.jpeg',
       link: 'https://github.com/tyang146/Bookkeeping',
