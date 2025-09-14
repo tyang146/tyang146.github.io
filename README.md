@@ -4,6 +4,6 @@
 ## Technologies Used
 - HTML
 - TypeScript
-- SCSS
-
+- SCSS + Bootstrap CSS
 - Angular
+
