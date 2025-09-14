@@ -1,0 +1,17 @@
+<div class="playground-container">
+  <div class="col-12 col-md-10 col-lg-8 mx-auto text-center my-4">
+    <h2 class="fs-2">Playground</h2>
+  </div>
+  <div class="col-12 col-md-10 col-lg-8 mx-auto">
+    <button
+      *ngFor="let btn of buttonStates; let i = index"
+      (click)="onButtonClick(i)"
+      [class.moved]="btn.moved"
+      [style.top.%]="btn.top"
+      [style.left.%]="btn.left"
+    >
+      Button {{ i + 1 }}
+    </button>
+  </div>
+  
+</div>

@@ -1,0 +1,21 @@
+.playground-container {
+  min-height: 60vh;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  transition: background 0.3s, transform 0.3s;
+  background: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+// Transform and change button color when moved
+button.moved {
+  background: #e74c3c;
+  transform: scale(1.2) rotate(10deg);
+}

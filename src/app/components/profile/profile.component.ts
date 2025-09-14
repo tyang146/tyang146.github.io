@@ -28,4 +28,8 @@ export class ProfileComponent {
   goToMyCertificate() {
     window.open('https://www.freecodecamp.org/certification/fcc-36cb9c7f-cd9a-45a5-bd66-10bfcac46281/foundational-c-sharp-with-microsoft', '_blank');
   }
+
+  goToEasterEgg() {
+        this.router.navigateByUrl('/playground');
+  }
 }
