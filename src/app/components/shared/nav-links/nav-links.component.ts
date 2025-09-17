@@ -15,8 +15,9 @@ export class NavLinksComponent {
 
   protected  navItems: string[] = ['About', 'Skills', 'Projects'];
 
+  // Scroll to section on nav link click
   onNavClick(item: string) {
-    // Ensure we are on the home route before scrolling to anchors
+    // Ensure we are on the home route before scrolling to section
     this.router.navigateByUrl('/').then(() => {
       const elementId = item.toLowerCase().replace(' ', '-');
       // Allow DOM to settle after navigation
@@ -34,10 +35,4 @@ export class NavLinksComponent {
       }, 350);
     }
   }
-
-  scrollTo(section: string) {
-    let elementId = section.toLowerCase().replace(' ', '-');
-    this.viewportScroller.scrollToAnchor(elementId);
-  }
-
 }
