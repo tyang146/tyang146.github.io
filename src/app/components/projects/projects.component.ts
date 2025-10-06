@@ -23,29 +23,34 @@ export class ProjectsComponent {
 
   protected projects: Project[]  = [
     {
+      name: 'Insurance Admin Portal',
+      src: './assets/projects/insurance.jpeg',
+      link: 'https://github.com/tyang146/Insurance-Admin-Portal',
+    },
+    {
       name: 'Accounting and Bookkeeping System',
       src: './assets/projects/bookkeeping.jpeg',
       link: 'https://github.com/tyang146/Bookkeeping',
     },
     {
-      name: 'Insurance Portal',
-      src: './assets/projects/insurance.jpeg',
-      link: 'https://github.com/tyang146/Insurance-Client-Portal',
-    },
-    {
       name: 'Movie Field Deduction',
       src: './assets/projects/movie.jfif',
-      link: 'https://github.com/tyang146/movie_field_deduction',
+      link: 'https://huggingface.co/spaces/tyang146/movie_field_deduction',
     },
     {
-      name: 'Bloxorz AI',
-      src: './assets/projects/Bloxorz.jpg',
-      link: 'https://github.com/tyang146/BloxorzAI',
+      name: 'Bank Management System',
+      src: './assets/projects/bank.webp',
+      link: 'https://github.com/tyang146/Bank_Management_System',
     },
     {
-      name: 'Workout Tracker',
-      src: './assets/projects/wt.png',
-      link: 'https://github.com/tyang146/WorkoutTracker',
+      name: 'Football Regression Analysis',
+      src: './assets/projects/football.png',
+      link: 'https://github.com/tyang146/regression_analysis_streamlit',
+    },
+    {
+      name: 'S3 Bucket API',
+      src: './assets/projects/s3.jpeg',
+      link: 'https://github.com/tyang146/My-S3-Bucket-Api',
     },
     {
       name: 'Ransomware Evolution: Chapter 5',

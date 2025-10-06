@@ -6,7 +6,9 @@
     </h5>
     <div>
       <a [href]="project.link" target="_blank" class="bt btn btn-color-3">
-        {{ project.name === 'Ransomware Evolution: Chapter 5' ? 'View Paper' : 'Check on Github' }}
+        {{ project.name === 'Ransomware Evolution: Chapter 5' ? 'View Paper' : 
+           project.name === 'Movie Field Deduction' ? 'Check on Hugging Face' :
+           'Check on Github' }}
       </a>
     </div>
   </div>
