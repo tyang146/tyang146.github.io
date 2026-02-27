@@ -61,11 +61,13 @@ function App() {
             I am always looking for new challenges and opportunities to grow.
           </p>
         </div>
-        <img
-          src={profile}
-          alt="Thong"
-          className="hero-img"
-        />
+        <a href="https://myworld-a998d.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+          <img
+            src={profile}
+            alt="Thong"
+            className="hero-img"
+          />
+        </a>
       </section>
 
       <section id="skills" className="section">
