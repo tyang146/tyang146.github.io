@@ -3,7 +3,7 @@
 
 ## Technologies Used
 - HTML
-- TypeScript
-- SCSS + Bootstrap CSS
-- Angular
+- JavaScript
+- CSS
+- React + Vite
 
