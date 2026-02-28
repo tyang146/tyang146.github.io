@@ -10,6 +10,7 @@ const projects = [
   { title: "Football Regression Analysis", url: "https://github.com/tyang146/regression_analysis_streamlit" },
   { title: "Movie Field Deduction", url: "https://huggingface.co/spaces/tyang146/movie_field_deduction" },
   { title: "Ransomware Evolution: Chapter 5", url: "https://www.taylorfrancis.com/books/edit/10.1201/9781003469506/ransomware-evolution-mohiuddin-ahmed" },
+  { title: "My 3D World", url: "https://github.com/tyang146/my_3d_world" },
 ];
 
 function SkillCard({ title, skills }) {
