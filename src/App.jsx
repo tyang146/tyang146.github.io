@@ -3,7 +3,7 @@ import profile from './assets/profile.jpg';
 import { useState } from "react";
 
 const projects = [
-  { title: "Bank Management System", url: "https://github.com/tyang146/Bank_Management_System" },
+  { title: "Bank Management System", url: "https://github.com/tyang146/Bank-Management-System" },
   { title: "Workout Tracker", url: "https://github.com/tyang146/WorkoutTracker" },
   { title: "Bloxorz AI", url: "https://github.com/tyang146/BloxorzAI" },
   { title: "S3 Bucket API", url: "https://github.com/tyang146/My-S3-Bucket-Api" },
